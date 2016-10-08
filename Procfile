@@ -1,1 +1,1 @@
-web: sh -c "cd dinerTicket && gunicorn  dinerTicket.swgi"
+web: sh -c "cd dinerTicket && gunicorn dinerTicket.wsgi"
