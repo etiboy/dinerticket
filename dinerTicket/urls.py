@@ -18,5 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    #pointing to apps URL mapper
     url(r'^',include('www.urls'))
 ]
