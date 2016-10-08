@@ -1,0 +1,26 @@
+{% load staticfiles %}
+<doctype html>
+<html>
+	<head>
+		<title>
+			Welcome to diner ticket
+		</title>
+		<link rel="stylesheet" href="{% static 'style.css' %}"/>
+	</head>
+	<body>
+		<main>
+			<section class="header">
+				<center><h1>DINERTICKET.COM</h1></center>
+			</section>
+			<section class="section_mama">
+				{% for restaurant in restaurants %}
+				<section class="restaurant_card">
+					<img src="{{ restaurant.banner }}" />
+					<p class="title">{{restaurant.restaurant_name}}</p>
+					<p class="about">{{ restaurant.about}}</p>
+				</section>
+				{% endfor %}
+			</section>
+		</main>
+
+	</body>

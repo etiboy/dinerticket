@@ -1,0 +1,39 @@
+body{
+	background-color: #aaa;
+}
+.header{
+	color: white;
+	font-family: serif;
+	font-weight: bold;
+}
+
+.restaurant_card{
+	display: inline-block;
+	width: 400px;
+	background-color: white;
+	border-radius: 30px;
+	text-align: center;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.restaurant_card img{
+	width:100%;
+	margin-top: 20px;
+	height: 25%;
+}
+.title{
+	font-family: serif;
+	font-weight: bold;
+	color: orange;
+	font-size: 25px;
+}
+.about{
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: sans-serif;
+	color: #aaa;
+}
+.section_mama{
+	margin: auto;
+	width: 70%;
+}
