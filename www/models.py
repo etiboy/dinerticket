@@ -4,7 +4,7 @@ from django.db import models
 
 # Create your models here.
 '''
-This options basically helps track number of days
+This options basically helps track number of days!
 WEEK_DAYS = (
     (1, 'Monday'),
     (2, 'Tuesday'),

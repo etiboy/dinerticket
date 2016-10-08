@@ -3,7 +3,7 @@
 		"model": "www.restaurant",
 		"pk": 5,
 		"fields": {
-			"restaurant_name": "Magic Foods",
+			"restaurant_name": "Magic Fudds",
 			"email": "magic_foods@gmail.com",
 			"banner": "https://b.zmtcdn.com/data/pictures/1/18380831/f680eda6aeaf39bd8c55946b4ed8d425.jpg",
 			"about": "An amazing combo of recipes and magic",
