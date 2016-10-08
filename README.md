@@ -1,2 +1,2 @@
 # dinerticket
-An open source table booking solution
+An open source django based table booking solution
