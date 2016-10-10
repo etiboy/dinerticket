@@ -3,27 +3,23 @@
 <html>
 	<head>
 		<title>
-			Welcome to diner ticket
+			Welcome to {{restaurant.restaurant_name}}
 		</title>
 		<link rel="stylesheet" href="{% static 'style.css' %}"/>
 	</head>
 	<body>
+		<center>
 		<main>
-			<section class="header">
-				<center><h1>DINERTICKET.COM</h1></center>
-			</section>
-			<section class="section_mama">
-				{% for restaurant in restaurants %}
-				<a href="{% url 'www:restaurant' restaurant.id %}">
+			<section class="section_mama_detail">
 				<section class="restaurant_card">
 					<img src="{{ restaurant.banner }}" />
 					<p class="title">{{restaurant.restaurant_name}}</p>
 					<p class="about">{{ restaurant.about}}</p>
 				</section>
-				</a>
-				{% endfor %}
-
+				<section>
+				<a href="{% url 'www:index' %}"> BACK </a>
+				</section>
 			</section>
 		</main>
-
+		</center>
 	</body>
